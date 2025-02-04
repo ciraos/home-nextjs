@@ -44,3 +44,5 @@ next-env.d.ts
 /_next
 pnpm-lock.yaml
 publish.sh
+home-nextjs.zip
+/.vscode/settings.json

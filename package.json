@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "copy": "cp -r public _next/standalone/ && cp -r _next/static _next/standalone/_next/",
-    "deploy": "pnpm run build && pnpm run copy && export PORT=3500 && node _next/standalone/server.js"
+    "deploy": "pnpm run build && pnpm run copy && export PORT=3000 && node _next/standalone/server.js"
   },
   "dependencies": {
     "antd": "^5.23.3",
