@@ -1,0 +1,40 @@
+{
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+    "editor.fontFamily": "'Fira code', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.fontWeight": "normal",
+    "editor.formatOnSave": true,
+    "editor.unicodeHighlight.allowedLocales": {
+        "zh-hant": true
+    },
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "explorer.sortOrder": "type",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "onFocusChange",
+    //! Picgo
+    "picgo.customOutputFormat": "${url}",
+    "picgo.customUploadName": "${dateTime}${extName}",
+    "picgo.picBed.current": "github",
+    //? github
+    "picgo.picBed.github.branch": "main",
+    "picgo.picBed.github.customUrl": "https://cdn.smartcis.cn/gh/ciraos/ciraos-static@main",
+    "picgo.picBed.github.path": "img/",
+    "picgo.picBed.github.repo": "ciraos/ciraos-static",
+    "picgo.picBed.github.token": "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",
+    "powermode.enabled": true,
+    "powermode.combo.location": "statusbar",
+    "powermode.explosions.customCss": {},
+    "powermode.presets": "particles",
+    "powermode.shake.enabled": false,
+    //? smms
+    "picgo.picBed.smms.token": "zZZ8qNx2CwSHnQw9jmaIAqoIRCj49PRk",
+    // "terminal.external.windowsExec": "C:\\Windows\\System32\\cmd.exe",
+    "workbench.colorTheme": "Catppuccin Mocha"
+}
