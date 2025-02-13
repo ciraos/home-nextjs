@@ -1,0 +1,10 @@
+{
+    "editor.fontFamily": "'Fira code', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.formatOnSave": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.sortOrder": "type",
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Dracula Theme Soft"
+}
