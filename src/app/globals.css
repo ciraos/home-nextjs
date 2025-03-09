@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {} */
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f4f4f4;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #11111B;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.author {
+  font-size: #3366ff;
+  text-shadow: 0 8px 10px #6699ff;
+  font-weight: bolder;
+}
