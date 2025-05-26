@@ -8,6 +8,7 @@ export const metadata: Metadata = {
 };
 
 import Footer from "@/components/footer";
+import Umami from "@/components/thirdparty/umami";
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
   return (
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           {children}
           <Footer />
         </div>
+        <Umami />
       </body>
     </html>
   );
