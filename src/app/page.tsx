@@ -1,7 +1,7 @@
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 
-import avatar from "@/app/image/avatar.avif"
+import avatar from "@/app/image/avatar.avif";
 import { Icon } from "@iconify/react";
 
 export default function Home() {
@@ -15,12 +15,15 @@ export default function Home() {
             <Link href="https://github.com/ciraos" target="_blank" rel="noopener noreferrer"><Icon icon="iconoir:github" width="24" height="24" className="dark:text-white" /></Link>
             <Link href="mailto:ciraos@yeah.net"><Icon icon="material-symbols-light:mail-outline-sharp" width="28" height="28" className="dark:text-white" /></Link>
             <Link href="https://blog.ciraos.top" className="px-1 border-l-[1px] border-solid border-black hover:underline-offset-1 hover:underline dark:text-white">博客</Link>
-            <Link href="https://pan.ciraos.top" target="_blank" rel="noopener noreferrer" className="hover:underline-offset-1 hover:underline dark:text-white">网盘</Link>
+            {/* <Link href="https://pan.ciraos.top" target="_blank" rel="noopener noreferrer" className="hover:underline-offset-1 hover:underline dark:text-white">网盘</Link> */}
             <Link href="https://stat.ciraos.top/status/myserver" target="_blank" rel="noopener noreferrer" className="hover:underline-offset-1 hover:underline dark:text-white">监控</Link>
+            {/* <Link href="https://umami.ciraos.top" target="_blank" rel="noopener noreferrer" className="hover:underline-offset-1 hover:underline dark:text-white">Umami</Link> */}
+            {/* <Link href="https://ech0.ciraos.top" target="_blank" rel="noopener noreferrer" className="hover:underline-offset-1 hover:underline dark:text-white">ech0</Link> */}
+            {/* <Link href="https://friends.ciraos.top" target="_blank" rel="noopener noreferrer" className="hover:underline-offset-1 hover:underline dark:text-white">友链朋友圈</Link> */}
           </div>
         </div>
         <Image src={avatar} alt="avatar" className="w-72 h-72 rounded-full border-2 border-solid border-white animate-pulse hover:animate-none max-425:mx-auto" priority />
       </div>
     </>
   )
-}
+};

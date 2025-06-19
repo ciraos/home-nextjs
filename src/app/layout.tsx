@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Footer from "@/components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -7,18 +8,14 @@ export const metadata: Metadata = {
   icons: "/avatar.avif"
 };
 
-import Footer from "@/components/footer";
-import Umami from "@/components/thirdparty/umami";
-
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="zh-CN">
-      <body className="">
+      <body>
         <div id="CIRAOS" className="w-full h-screen flex flex-col justify-center">
           {children}
           <Footer />
         </div>
-        <Umami />
       </body>
     </html>
   );
